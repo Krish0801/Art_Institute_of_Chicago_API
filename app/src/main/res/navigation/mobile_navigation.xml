@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.artinstituteofchicagoapi.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_artworks"
+        android:name="com.example.artinstituteofchicagoapi.ui.artworks.ArtworksFragment"
+        android:label="@string/title_artworks"
+        tools:layout="@layout/fragment_artworks" >
+        <action
+            android:id="@+id/action_navigation_artworks_to_navigation_artworksDetails"
+            app:destination="@id/navigation_artworksDetails" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_products"
+        android:name="com.example.artinstituteofchicagoapi.ui.products.ProductsFragment"
+        android:label="@string/title_products"
+        tools:layout="@layout/fragment_products" >
+        <action
+            android:id="@+id/action_navigation_products_to_navigation_productsDetails"
+            app:destination="@id/navigation_productsDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_tours"
+        android:name="com.example.artinstituteofchicagoapi.ui.tours.ToursFragment"
+        android:label="@string/title_tours"
+        tools:layout="@layout/fragment_tours" >
+        <action
+            android:id="@+id/action_navigation_tours_to_navigation_toursDetails"
+            app:destination="@id/navigation_toursDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_events"
+        android:name="com.example.artinstituteofchicagoapi.ui.events.EventsFragment"
+        android:label="@string/title_events"
+        tools:layout="@layout/fragment_events" >
+        <action
+            android:id="@+id/action_navigation_events_to_navigation_eventsDetails"
+            app:destination="@id/navigation_eventsDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_artworksDetails"
+        android:name="com.example.artinstituteofchicagoapi.ui.artworksDetails.ArtworksDetailsFragment"
+        android:label="@string/title_artworksDetails"
+        tools:layout="@layout/fragment_artworks_details" />
+    <fragment
+        android:id="@+id/navigation_productsDetails"
+        android:name="com.example.artinstituteofchicagoapi.ui.productsDetails.ProductsDetailsFragment"
+        android:label="@string/title_productsDetails"
+        tools:layout="@layout/fragment_products_details" />
+    <fragment
+        android:id="@+id/navigation_toursDetails"
+        android:name="com.example.artinstituteofchicagoapi.ui.toursDetails.ToursDetailsFragment"
+        android:label="@string/title_toursDetails"
+        tools:layout="@layout/fragment_tours_details" />
+    <fragment
+        android:id="@+id/navigation_eventsDetails"
+        android:name="com.example.artinstituteofchicagoapi.ui.eventsDetails.EventsDetailsFragment"
+        android:label="@string/title_eventsDetails"
+        tools:layout="@layout/fragment_events_details" />
+</navigation>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Art Institute of Chicago API</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_artworks">Artworks</string>
+    <string name="title_products">Products</string>
+    <string name="title_tours">Tours</string>
+    <string name="title_events">Events</string>
+    <string name="artworks_artist_id">Artist Id</string>
+    <string name="place_of_origin">Place of Origin</string>
+    <string name="artist_display">ARTIST DISPLAY</string>
+    <string name="artworks_place_of_origin">Place of Origin</string>
+    <string name="artworks_medium_display">Medium Display</string>
+    <string name="medium_display">Medium Display</string>
+    <string name="title_artworksDetails">Artworks Details</string>
+    <string name="title_productsDetails">Products Details</string>
+    <string name="title_toursDetails">Tours Details</string>
+    <string name="title_eventsDetails">Events Details</string>
+    <string name="artist_id">Artist Id</string>
+    <string name="artist_Display">Artist Display</string>
+    <string name="artist_title">Artist Title</string>
+    <string name="subject_id">Subject Id</string>
+    <string name="products_id">ID</string>
+    <string name="id">Id</string>
+    <string name="title">Title</string>
+    <string name="products_web_URL">Web URL</string>
+    <string name="web_URL">Web URL</string>
+</resources>

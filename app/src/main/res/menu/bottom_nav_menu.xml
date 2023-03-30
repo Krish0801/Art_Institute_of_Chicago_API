@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_artworks"
+        android:icon="@drawable/palette_solid"
+        android:title="@string/title_artworks" />
+    <item
+        android:id="@+id/navigation_products"
+        android:icon="@drawable/suitcase_rolling_solid"
+        android:title="@string/title_products" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/house_solid"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_tours"
+        android:icon="@drawable/plane_departure_solid"
+        android:title="@string/title_tours"
+        />
+
+    <item
+        android:id="@+id/navigation_events"
+        android:icon="@drawable/champagne_glasses_solid"
+        android:title="@string/title_events" />
+
+</menu>

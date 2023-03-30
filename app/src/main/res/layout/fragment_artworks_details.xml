@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="30dp"
+    app:cardUseCompatPadding="true"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Light_red1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="50dp">
+
+        <TextView
+            android:id="@+id/heading_artist_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artist Id"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/artworks_artist_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/artist_id"
+            android:paddingBottom="30dp"/>
+
+        <TextView
+            android:id="@+id/heading_artist_Display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artist Display"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/artworks_artist_Display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/artist_Display"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/heading_medium_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Display"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/artworks_medium_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medium_display"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/heading_place_of_origin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place of Origin"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/artworks_place_of_origin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/place_of_origin"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/heading_artist_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artist Title"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/artworks_artist_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/artist_title"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/heading_subject_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject Id"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/artworks_subject_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subject_id"
+            android:paddingBottom="5dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
