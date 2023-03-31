@@ -104,4 +104,4 @@ data class DataModel(
 //    val virtualEventPasscode: AnyModel? = AnyModel(),
 //    @SerializedName("virtual_event_url")
 //    val virtualEventUrl: AnyModel? = AnyModel()
-)
+):java.io.Serializable

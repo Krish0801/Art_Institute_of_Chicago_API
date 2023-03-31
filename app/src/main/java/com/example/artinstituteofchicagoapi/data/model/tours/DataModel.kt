@@ -26,8 +26,8 @@ data class DataModel(
     val introTranscript: String? = "",
 //    @SerializedName("source_updated_at")
 //    val sourceUpdatedAt: AnyModel? = AnyModel(),
-    @SerializedName("suggest_autocomplete_all")
-    val suggestAutocompleteAll: SuggestAutocompleteAllModel? = SuggestAutocompleteAllModel(),
+    //@SerializedName("suggest_autocomplete_all")
+   // val suggestAutocompleteAll: SuggestAutocompleteAllModel? = SuggestAutocompleteAllModel(),
     @SerializedName("suggest_autocomplete_boosted")
     val suggestAutocompleteBoosted: String? = "",
     @SerializedName("timestamp")
@@ -38,4 +38,4 @@ data class DataModel(
     val updatedAt: String? = "",
 //    @SerializedName("weight")
 //    val weight: AnyModel? = AnyModel()
-)
+):java.io.Serializable

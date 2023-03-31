@@ -26,4 +26,10 @@
     <string name="title">Title</string>
     <string name="products_web_URL">Web URL</string>
     <string name="web_URL">Web URL</string>
+    <string name="tours_description">Description</string>
+    <string name="Description">Description</string>
+    <string name="events_id">ID</string>
+    <string name="events_title">Title</string>
+    <string name="events_location">Location</string>
+    <string name="location">Location</string>
 </resources>

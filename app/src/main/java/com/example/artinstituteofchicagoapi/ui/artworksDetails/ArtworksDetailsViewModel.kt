@@ -9,5 +9,5 @@ import javax.inject.Inject
 class ArtworksDetailsViewModel @Inject constructor(
     repository: Repository
 ): ViewModel() {
-    // TODO: Implement the ViewModel
+
 }
